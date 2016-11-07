@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\asm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\classicdesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\convshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\err.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\faceroi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hatdesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landmarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\pinstart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shape17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapehacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapemod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\startshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\facedet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\initasm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jk\Downloads\svmClassifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\asm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\atface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\basedesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\classicdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\convshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\faceroi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hatdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landmarks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landtab_muct77.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\pinstart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shape17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapehacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapemod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\startshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_landmarks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\facedet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\initasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jk\Downloads\svmClassifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

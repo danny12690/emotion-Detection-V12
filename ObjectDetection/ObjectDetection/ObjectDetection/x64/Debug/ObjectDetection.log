@@ -1,0 +1,41 @@
+﻿Build started 5/9/2016 3:39:45 PM.
+     1>Project "D:\Projects\VisualStudio_2013\ObjectDetection\ObjectDetection\ObjectDetection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\jk\Downloads\libsvm-3.21\libsvm-3.21" /IC:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm /IC:\Users\jk\Downloads\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt minimal.cpp
+         minimal.cpp
+     1>minimal.cpp(107): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>minimal.cpp(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>minimal.cpp(116): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>minimal.cpp(118): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>minimal.cpp(121): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>minimal.cpp(122): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\VisualStudio_2013\ObjectDetection\x64\Debug\ObjectDetection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\VisualStudio_2013\ObjectDetection\x64\Debug\ObjectDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\VisualStudio_2013\ObjectDetection\x64\Debug\ObjectDetection.lib" /MACHINE:X64 x64\Debug\asm.obj
+         x64\Debug\classicdesc.obj
+         x64\Debug\convshape.obj
+         x64\Debug\err.obj
+         x64\Debug\eyedet.obj
+         x64\Debug\eyedist.obj
+         x64\Debug\faceroi.obj
+         x64\Debug\hat.obj
+         x64\Debug\hatdesc.obj
+         x64\Debug\landmarks.obj
+         x64\Debug\misc.obj
+         x64\Debug\facedet.obj
+         x64\Debug\initasm.obj
+         x64\Debug\pinstart.obj
+         x64\Debug\print.obj
+         x64\Debug\shape17.obj
+         x64\Debug\shapehacks.obj
+         x64\Debug\shapemod.obj
+         x64\Debug\startshape.obj
+         x64\Debug\stasm.obj
+         x64\Debug\stasm_lib.obj
+         x64\Debug\svmClassifier.obj
+         x64\Debug\minimal.obj
+         ObjectDetection.vcxproj -> D:\Projects\VisualStudio_2013\ObjectDetection\x64\Debug\ObjectDetection.exe
+     1>Done Building Project "D:\Projects\VisualStudio_2013\ObjectDetection\ObjectDetection\ObjectDetection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07

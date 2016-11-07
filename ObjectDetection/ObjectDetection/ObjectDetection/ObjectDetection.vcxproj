@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CE1E56B-C914-49CA-9161-8A27C6C1E662}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ObjectDetection</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\jk\Downloads\opencv\build\include;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\jk\Downloads\opencv\build\x64\vc12\lib;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\jk\Downloads\libsvm-3.21\libsvm-3.21;C:\Users\jk\Downloads\opencv\build\include;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\jk\Downloads\opencv\build\x64\vc12\bin;C:\Users\jk\Downloads\opencv\build\x64\vc12\lib;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;C:\Users\jk\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\jk\Downloads\opencv\build\include;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d2411d.lib;opencv_contrib2411d.lib;opencv_core2411d.lib;opencv_features2d2411d.lib;opencv_flann2411d.lib;opencv_gpu2411d.lib;opencv_highgui2411d.lib;opencv_imgproc2411d.lib;opencv_legacy2411d.lib;opencv_ml2411d.lib;opencv_nonfree2411d.lib;opencv_objdetect2411d.lib;opencv_ocl2411d.lib;opencv_photo2411d.lib;opencv_stitching2411d.lib;opencv_superres2411d.lib;opencv_ts2411d.lib;opencv_video2411d.lib;opencv_videostab2411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\jk\Downloads\libsvm-3.21\libsvm-3.21;C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;C:\Users\jk\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d2411d.lib;opencv_contrib2411d.lib;opencv_core2411d.lib;opencv_features2d2411d.lib;opencv_flann2411d.lib;opencv_gpu2411d.lib;opencv_highgui2411d.lib;opencv_imgproc2411d.lib;opencv_legacy2411d.lib;opencv_ml2411d.lib;opencv_nonfree2411d.lib;opencv_objdetect2411d.lib;opencv_ocl2411d.lib;opencv_photo2411d.lib;opencv_stitching2411d.lib;opencv_superres2411d.lib;opencv_ts2411d.lib;opencv_video2411d.lib;opencv_videostab2411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\asm.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\classicdesc.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\convshape.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\err.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedet.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedist.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\faceroi.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hat.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hatdesc.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landmarks.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\misc.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\facedet.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\initasm.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\pinstart.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\print.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shape17.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapehacks.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapemod.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\startshape.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib.cpp" />
+    <ClCompile Include="C:\Users\jk\Downloads\svmClassifier.cpp" />
+    <ClCompile Include="minimal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\asm.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\atface.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\basedesc.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\classicdesc.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\convshape.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\err.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedet.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\eyedist.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\faceroi.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hat.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\hatdesc.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landmarks.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\landtab_muct77.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\misc.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\facedet.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\MOD_1\initasm.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\pinstart.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\print.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shape17.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapehacks.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\shapemod.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\startshape.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_landmarks.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\stasm4.1.0\stasm4.1.0\stasm\stasm_lib_ext.h" />
+    <ClInclude Include="C:\Users\jk\Downloads\svmClassifier.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
